@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- media queries -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- character set -->
+		<meta charset="utf-8">
+		<!-- title -->
+		<title>Take a Guess</title>
+		<!-- Font awesome -->
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<!-- bootstrap CDN-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- css Reset -->
+		<link rel="stylesheet" href="css/reset.css">
+		<!-- Animate css -->
+		<link rel="stylesheet"  href="css/animate.css">
+		<!-- main css -->
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+
+		<div class="titleWrapper">
+			<div class="innerWrapper text-center mt-3">
+				
+				<div class="top-titleContainer">
+					<h1 class="top-title">GUESSING</h1>
+				</div>
+				<div class="bottom-titleContainer">
+					<h1 class="bottom-title">GAME</h1>
+				</div>
+				<img class="slideRight" src="https://horrorpediadotcom.files.wordpress.com/2013/05/1778314-png.jpeg">
+			</div>
+		</div>
+
+		<div class="contentInstructions">
+			<div class="ruleBorder">
+				<h5><strong>Lets Play a Game!</strong> Try to guess the randon number the computer is thinking between 1-200. You will have 10 chances to guess what the number is. If your guess is incorrect, you will get a prompt telling you to guess either <strong>Higher</strong> or <strong>Lower</strong> and enter another guess. If you run out of guesses....well....better luck next time.</h5>
+				<div class=" text-center">
+				<button id="startGame" class="justify-content-lg-center my-4" >Click here to play</button>	
+				</div>	
+			</div>
+		</div>
+		<div class="output">
+			<div class="imgNumber text-center" id="winLose"></div>
+ 		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<!-- jquery CDN -->
+		<script
+		src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+		<!-- scrollto js -->
+		<script src="js/jquery.scrollTo.min.js"></script>
+		<!-- custom js -->
+		<script src="js/main.js"></script>
+	</body>
+</html>

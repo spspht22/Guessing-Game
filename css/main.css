@@ -1,0 +1,151 @@
+/*FONTS*/
+@font-face {
+    font-family: DasModern;
+    src: url("../fonts/DasModern.ttf") 
+
+}
+
+body {
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+/*new title*/
+.top-titleContainer {
+    text-align: right;
+    border-bottom: 2px solid #73737317;
+    width: 45%;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+
+.top-title {
+    color: #4b4f4f;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: DasModern;
+    background: linear-gradient(to right, white , #d9d9d9);
+    font-size: 143px;
+    padding-right: 20px;
+}
+
+.bottom-titleContainer {
+    text-align: right;
+    border-bottom: 2px solid #73737317;
+    width: 52%;
+    animation: 1.2s ease-out 0s 1 slideInFromLeft;
+}
+
+.bottom-title {
+    color: #4b4f4f;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-family: DasModern;
+    background: linear-gradient(to right, white , #8484844d);
+    font-size: 131px;
+    padding-right: 20px;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slideRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    border-bottom: 1px solid #0101012b;
+    margin-top: 20px;
+    animation: 5s ease-out 0s 1 slideInFromRight;
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(175%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.ruleBorder {
+    margin: 12px 22%;
+    padding: 0 10px;
+    background-color: #dddddd6b;
+    border-radius: 4px;
+}
+
+/*button that starts the game*/
+#startGame {
+	background-color: #f61212;
+    padding: 10px 5px;
+    outline: none;
+    border: 2px black ridge;
+    border-radius: 4px;
+    margin: 10px 40%;
+}
+#startGame:hover {
+	cursor: pointer;
+}
+.guesses {
+    font-size: 26px;
+    color: darkolivegreen;
+    text-decoration: underline;
+}
+
+/*div that contains win or lsoe message*/
+#winLose {
+	margin-bottom: 60px;
+}
+
+/*image for when you lose the game*/
+.loseImage {
+	width: 500px;
+	border: 3px red ridge;
+}
+
+.winImage {
+	border: 3px red ridge;
+}
+
+.imgNumber p {
+    
+}
+
+#playAgain {
+	background-color: #aa89d8;
+    padding: 10px 5px;
+    outline: none;
+    border: 2px black ridge;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+#playAgain:hover {
+	cursor: pointer;
+}
+
+/*media queries*/
+@media( max-width: 1257px) {
+
+}
+.imgNumber {
+    width: 100%;
+    height: 500px;
+}
+
+.img-fluid {
+	    width: 58%;
+
+}
+
+.output {
+    position: relative;
+}
+
